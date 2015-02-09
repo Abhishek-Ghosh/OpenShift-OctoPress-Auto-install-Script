@@ -47,7 +47,7 @@ RUBY_VERSION=1.9.3-p448
 
 #sudo brew update #1
 #sudo brew install git ruby ruby-dev #2
-#sudo rm -rf octopress #3
+sudo rm -rf octopress
 git clone git://github.com/imathis/octopress.git octopress && cd octopress
 sudo gem install bundler
 rbenv rehash
